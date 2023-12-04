@@ -31,7 +31,7 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 53.421487603305785,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}
@@ -40,7 +40,7 @@
     "sourceData": "[]",
     "key": "f0iiw9s8wh",
     "isDeprecated": false,
-    "rightColumn": 10.578512396694215,
+    "rightColumn": 64,
     "menuVariant": "PRIMARY",
     "widgetId": "s3if7m1flh",
     "menuItems": {
@@ -103,5 +103,5 @@
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
     "placement": "CENTER",
-    "alignment": "start"
+    "alignment": "end"
 }

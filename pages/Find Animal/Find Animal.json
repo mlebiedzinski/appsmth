@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -40,6 +40,14 @@
               "children": [
                 {
                   "id": "rzby9ohhhq",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "1jsvunkket",
                   "align": "start"
                 }
               ]

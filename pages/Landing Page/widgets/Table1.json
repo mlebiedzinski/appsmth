@@ -29,6 +29,7 @@
     "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
+    "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -66,7 +67,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701716499609,
+    "columnUpdatedAt": 1701721644232,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 38,
