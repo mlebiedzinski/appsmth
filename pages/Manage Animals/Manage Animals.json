@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Find Animal",
-    "slug": "find-animal",
+    "name": "Manage Animals",
+    "slug": "manage-animals",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 696.0000000000002,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
             {
               "children": [
                 {
-                  "id": "rzby9ohhhq",
+                  "id": "1jsvunkket",
                   "align": "start"
                 }
               ]
@@ -47,7 +47,15 @@
             {
               "children": [
                 {
-                  "id": "1jsvunkket",
+                  "id": "6aj7irqtgp",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "373h3oean8",
                   "align": "start"
                 }
               ]
@@ -57,8 +65,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Find Animal_AllAvailable",
-              "name": "AllAvailable",
+              "id": "Manage Animals_AnimalsBySupplier",
+              "name": "AnimalsBySupplier",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -68,7 +76,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Find Animal",
+        "id": "Manage Animals",
         "deleted": false,
         "policies": [],
         "userPermissions": []

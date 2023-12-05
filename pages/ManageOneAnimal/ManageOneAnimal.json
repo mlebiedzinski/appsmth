@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Animal Form",
-    "slug": "animal-form",
+    "name": "ManageOneAnimal",
+    "slug": "manageoneanimal",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 994,
+          "bottomRow": 942,
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 68,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 630,
+          "minHeight": 700,
           "useAutoLayout": true,
           "parentColumnSpace": 1,
           "responsiveBehavior": "fill",
@@ -31,7 +31,7 @@
             {
               "children": [
                 {
-                  "id": "pcvyb938vi",
+                  "id": "r1sfuwei1w",
                   "align": "start"
                 }
               ]
@@ -39,15 +39,7 @@
             {
               "children": [
                 {
-                  "id": "71hm7vrrvt",
-                  "align": "end"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "pbk06agptv",
+                  "id": "23vhkgzgy4",
                   "align": "start"
                 }
               ]
@@ -57,7 +49,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Animal Form",
+        "id": "ManageOneAnimal",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -68,5 +60,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e1497c290983d32c70e11_656e1a2ac290983d32c70e1e"
+  "gitSyncId": "656f81c437e53a222f14048c_656f9fa637e53a222f1404ac"
 }

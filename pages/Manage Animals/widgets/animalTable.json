@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 5.2,
+    "topRow": 15.600000000000001,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -42,7 +42,7 @@
     "needsHeightForContent": true,
     "leftColumn": 0,
     "delimiter": ",",
-    "defaultSelectedRowIndex": 0,
+    "defaultSelectedRowIndex": "",
     "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -82,10 +82,11 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1701808374189,
+    "primaryColumnId": "animalID",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 38,
-    "widgetName": "Table1",
+    "widgetName": "animalTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "species",
@@ -117,7 +118,7 @@
     "dynamicPropertyPathList": [],
     "compactMode": "SHORT",
     "displayName": "Table",
-    "bottomRow": 59.20000000000001,
+    "bottomRow": 69.60000000000002,
     "columnWidthMap": {
         "gender": 111,
         "orderID": 121,
@@ -133,11 +134,11 @@
     "hideCard": false,
     "mobileRightColumn": 24,
     "parentColumnSpace": 10.78125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "country": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "country",
@@ -171,7 +172,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastName",
@@ -205,7 +206,7 @@
             "verticalAlignment": "CENTER"
         },
         "gender": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"] ? \"Female\" : \"Male\"))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"] ? \"Female\" : \"Male\"))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "gender",
@@ -238,7 +239,7 @@
             "verticalAlignment": "CENTER"
         },
         "city": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"city\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "city",
@@ -272,7 +273,7 @@
             "verticalAlignment": "CENTER"
         },
         "origin": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"origin\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"origin\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "origin",
@@ -305,7 +306,7 @@
             "verticalAlignment": "CENTER"
         },
         "availability": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"availability\"] ? \"Available\": \"Unavailable\"))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"availability\"] ? \"Available\": \"Unavailable\"))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "availability",
@@ -338,7 +339,7 @@
             "verticalAlignment": "CENTER"
         },
         "animalID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animalID\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animalID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animalID",
@@ -371,7 +372,7 @@
             "verticalAlignment": "CENTER"
         },
         "animalTypeID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animalTypeID\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"animalTypeID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "animalTypeID",
@@ -405,7 +406,7 @@
             "verticalAlignment": "CENTER"
         },
         "countSupplied": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"countSupplied\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"countSupplied\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "countSupplied",
@@ -439,7 +440,7 @@
             "verticalAlignment": "CENTER"
         },
         "price": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "price",
@@ -472,7 +473,7 @@
             "verticalAlignment": "CENTER"
         },
         "contactLink": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"contactLink\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"contactLink\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "contactLink",
@@ -506,7 +507,7 @@
             "verticalAlignment": "CENTER"
         },
         "company": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "company",
@@ -540,7 +541,7 @@
             "verticalAlignment": "CENTER"
         },
         "state": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "state",
@@ -574,7 +575,7 @@
             "verticalAlignment": "CENTER"
         },
         "behavior": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"behavior\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"behavior\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "behavior",
@@ -607,7 +608,7 @@
             "verticalAlignment": "CENTER"
         },
         "email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "email",
@@ -641,7 +642,7 @@
             "verticalAlignment": "CENTER"
         },
         "profileText": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"profileText\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"profileText\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "profileText",
@@ -675,7 +676,7 @@
             "verticalAlignment": "CENTER"
         },
         "supplierID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"supplierID\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"supplierID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "supplierID",
@@ -708,7 +709,7 @@
             "verticalAlignment": "CENTER"
         },
         "orderID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"orderID\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"orderID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "orderID",
@@ -741,7 +742,7 @@
             "verticalAlignment": "CENTER"
         },
         "subSpecies": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"subSpecies\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"subSpecies\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "subSpecies",
@@ -775,7 +776,7 @@
             "verticalAlignment": "CENTER"
         },
         "firstName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "firstName",
@@ -809,7 +810,7 @@
             "verticalAlignment": "CENTER"
         },
         "healthStatus": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"healthStatus\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"healthStatus\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "healthStatus",
@@ -842,7 +843,7 @@
             "verticalAlignment": "CENTER"
         },
         "phone": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "phone",
@@ -876,7 +877,7 @@
             "verticalAlignment": "CENTER"
         },
         "species": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"species\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"species\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "species",
@@ -910,7 +911,7 @@
             "verticalAlignment": "CENTER"
         },
         "age": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"age\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"age\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "age",
@@ -943,7 +944,7 @@
             "verticalAlignment": "CENTER"
         },
         "specialRequirements": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"specialRequirements\"]))}}",
+            "computedValue": "{{animalTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"specialRequirements\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "specialRequirements",
@@ -976,17 +977,20 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{navigateTo('ManageOneAnimal', animalTable.selectedRow, 'SAME_WINDOW');}}",
     "key": "oqpkv6v7se",
     "canFreezeColumn": true,
     "isDeprecated": false,
     "rightColumn": 64,
     "textSize": "0.875rem",
-    "widgetId": "178l1dpa2n",
+    "widgetId": "373h3oean8",
+    "allowAddNewRow": true,
     "minWidth": 450,
-    "tableData": "{{AllAnimals.data}}",
+    "tableData": "{{AnimalsBySupplier.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 10,
     "horizontalAlignment": "CENTER",
