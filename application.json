@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Find Animal",
+      "id": "Manage Animals",
       "isDefault": false
     },
     {
@@ -34,6 +34,10 @@
     },
     {
       "id": "View Guide",
+      "isDefault": false
+    },
+    {
+      "id": "ManageOneAnimal",
       "isDefault": false
     }
   ],
