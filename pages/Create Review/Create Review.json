@@ -56,7 +56,23 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Create Review_AllReviews",
+              "name": "AllReviews",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "(JSONForm1.formData || {}).reviewText",
+                "(JSONForm1.formData || {}).author",
+                "(JSONForm1.formData || {}).title",
+                "(JSONForm1.formData || {}).customerID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Create Review",

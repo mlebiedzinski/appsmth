@@ -268,7 +268,7 @@
         {"key": "onSubmit"}
     ],
     "borderWidth": "1",
-    "sourceData": "{{Query1.data}}",
+    "sourceData": "{{AllReviews.data}}",
     "resetButtonLabel": "Reset",
     "key": "p0rijm4tmo",
     "backgroundColor": "#fff",

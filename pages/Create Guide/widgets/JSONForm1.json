@@ -19,7 +19,8 @@
         {"key": "schema.__root_schema__.children.customField2.accentColor"},
         {"key": "schema.__root_schema__.children.customField2.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.defaultValue"},
-        {"key": "schema.__root_schema__.children.customField2.defaultValue"}
+        {"key": "schema.__root_schema__.children.customField2.defaultValue"},
+        {"key": "sourceData"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -198,7 +199,7 @@
         "buttonVariant": "PRIMARY",
         "iconAlign": "right"
     },
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "bottomRow": 57.2,
     "fieldLimitExceeded": false,
@@ -212,7 +213,7 @@
         {"key": "schema.__root_schema__.children.customField1.onEnterKeyPress"}
     ],
     "borderWidth": "1",
-    "sourceData": "",
+    "sourceData": "{{AllGuides.data}}",
     "resetButtonLabel": "Reset",
     "key": "6y5lie218y",
     "backgroundColor": "#fff",
