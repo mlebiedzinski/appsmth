@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T18:15:25Z"
+    "userPermissions": []
   },
   "id": "Landing Page_AllAnimals",
   "deleted": false,
