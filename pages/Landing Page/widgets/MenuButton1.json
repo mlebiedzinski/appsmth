@@ -31,7 +31,7 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 54.290771175726924,
+    "leftColumn": 54.50679851668727,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}

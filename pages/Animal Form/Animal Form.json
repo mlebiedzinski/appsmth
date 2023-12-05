@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 994,
+          "bottomRow": 1074,
           "containerStyle": "none",
           "snapRows": 61,
           "parentRowSpace": 1,
@@ -31,16 +31,16 @@
             {
               "children": [
                 {
-                  "id": "71hm7vrrvt",
-                  "align": "end"
+                  "id": "pcvyb938vi",
+                  "align": "start"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "ukc2xiozlp",
-                  "align": "start"
+                  "id": "71hm7vrrvt",
+                  "align": "end"
                 }
               ]
             },
