@@ -9,18 +9,48 @@
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "tableData"},
-        {"key": "primaryColumns.author.computedValue"},
-        {"key": "primaryColumns.customerID.computedValue"},
-        {"key": "primaryColumns.dateCreated.computedValue"},
-        {"key": "primaryColumns.dateEdited.computedValue"},
-        {"key": "primaryColumns.datePublished.computedValue"},
-        {"key": "primaryColumns.reviewID.computedValue"},
-        {"key": "primaryColumns.title.computedValue"},
-        {"key": "primaryColumns.reviewText.computedValue"}
+        {
+            "key": "accentColor"
+        },
+        {
+            "key": "borderRadius"
+        },
+        {
+            "key": "boxShadow"
+        },
+        {
+            "key": "tableData"
+        },
+        {
+            "key": "primaryColumns.author.computedValue"
+        },
+        {
+            "key": "primaryColumns.customerID.computedValue"
+        },
+        {
+            "key": "primaryColumns.dateCreated.computedValue"
+        },
+        {
+            "key": "primaryColumns.dateEdited.computedValue"
+        },
+        {
+            "key": "primaryColumns.datePublished.computedValue"
+        },
+        {
+            "key": "primaryColumns.fullText.computedValue"
+        },
+        {
+            "key": "primaryColumns.reviewID.computedValue"
+        },
+        {
+            "key": "primaryColumns.title.computedValue"
+        },
+        {
+            "key": "primaryColumns.reviewText.computedValue"
+        },
+        {
+            "key": "primaryColumns.reviewText.computedValue"
+        }
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -62,8 +92,10 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701809060727,
-    "defaultSelectedRowIndices": [0],
+    "columnUpdatedAt": 1701807154166,
+    "defaultSelectedRowIndices": [
+        0
+    ],
     "alignment": "start",
     "mobileBottomRow": 39,
     "widgetName": "Table1",
