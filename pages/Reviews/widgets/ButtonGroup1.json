@@ -15,7 +15,7 @@
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton1": {
-            "onClick": "{{navigateTo('Create Guide', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Create Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "plus",
             "buttonColor": "#fef9c3",
@@ -29,7 +29,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('View Guide', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Create Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "grid-view",
             "buttonColor": "#dbeafe",

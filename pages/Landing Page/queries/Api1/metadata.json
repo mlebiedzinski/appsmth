@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "AllReviews",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Create Review",
+    "pageId": "Landing Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,8 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"title\": {{(JSONForm1.formData || {}).title}},\n\t\"reviewText\": {{(JSONForm1.formData || {}).reviewText}},\n\t\"author\": {{(JSONForm1.formData || {}).author}},\n\t\"customerID\": {{(JSONForm1.formData || {}).customerID}},\n}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,27 +42,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "(JSONForm1.formData || {}).author",
-      "(JSONForm1.formData || {}).customerID",
-      "(JSONForm1.formData || {}).reviewText",
-      "(JSONForm1.formData || {}).title"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T18:40:20Z"
+    "userPermissions": []
   },
-  "id": "Create Review_AllReviews",
+  "id": "Landing Page_Api1",
   "deleted": false,
-  "gitSyncId": "656e1497c290983d32c70e11_656e246cc290983d32c70e33"
+  "gitSyncId": "656f6e9405ac1577beec19d5_656f6ee005ac1577beec19ef"
 }

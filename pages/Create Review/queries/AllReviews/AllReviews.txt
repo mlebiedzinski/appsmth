@@ -1,0 +1,6 @@
+{
+	"title": {{(JSONForm1.formData || {}).title}},
+	"reviewText": {{(JSONForm1.formData || {}).reviewText}},
+	"author": {{(JSONForm1.formData || {}).author}},
+	"customerID": {{(JSONForm1.formData || {}).customerID}},
+}

@@ -1,7 +1,7 @@
 {
     "isCompact": false,
     "boxShadow": "none",
-    "mobileBottomRow": 10,
+    "mobileBottomRow": 4,
     "widgetName": "MenuButton1",
     "configureMenuItems": {
         "label": "Configure menu items",
@@ -21,7 +21,7 @@
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 6.632,
+    "mobileRightColumn": 36.22641509433962,
     "animateLoading": true,
     "parentColumnSpace": 11.359375,
     "dynamicTriggerPathList": [
@@ -40,7 +40,7 @@
     "sourceData": "[]",
     "key": "f0iiw9s8wh",
     "isDeprecated": false,
-    "rightColumn": 10.578512396694215,
+    "rightColumn": 9.684741488020176,
     "menuVariant": "PRIMARY",
     "widgetId": "0awoho8pz3",
     "menuItems": {
@@ -97,7 +97,7 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 6,
+    "mobileTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "menuItemsSource": "STATIC",
