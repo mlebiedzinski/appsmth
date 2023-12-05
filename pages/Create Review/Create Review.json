@@ -64,10 +64,10 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "(JSONForm1.formData || {}).reviewText",
                 "(JSONForm1.formData || {}).author",
-                "(JSONForm1.formData || {}).title",
-                "(JSONForm1.formData || {}).customerID"
+                "(JSONForm1.formData || {}).customerID",
+                "(JSONForm1.formData || {}).reviewText",
+                "(JSONForm1.formData || {}).title"
               ],
               "timeoutInMillisecond": 10000
             }
