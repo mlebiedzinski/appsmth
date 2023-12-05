@@ -1,0 +1,107 @@
+{
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 10,
+    "widgetName": "MenuButton1",
+    "configureMenuItems": {
+        "label": "Configure menu items",
+        "id": "config",
+        "config": {
+            "onClick": "{{navigateTo('Filter Animals', {}, 'SAME_WINDOW');}}",
+            "id": "config",
+            "label": "Menu Item",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 0,
+    "bottomRow": 4,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 6.632,
+    "animateLoading": true,
+    "parentColumnSpace": 11.359375,
+    "dynamicTriggerPathList": [
+        {"key": "configureMenuItems.config.onClick"},
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2xs93gfqw8.onClick"},
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem3.onClick"}
+    ],
+    "leftColumn": 53.421487603305785,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "sourceData": "[]",
+    "key": "f0iiw9s8wh",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "menuVariant": "PRIMARY",
+    "widgetId": "71hm7vrrvt",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{navigateTo('Animal Form', {}, 'SAME_WINDOW');}}",
+            "iconName": "annotation",
+            "widgetId": "",
+            "iconColor": "#ef4444",
+            "index": 1,
+            "iconAlign": "left",
+            "label": "Animal Form",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem3": {
+            "onClick": "{{navigateTo('Reviews', {}, 'SAME_WINDOW');}}",
+            "iconName": "star-empty",
+            "widgetId": "",
+            "iconColor": "#eab308",
+            "index": 3,
+            "label": "Reviews",
+            "id": "menuItem3",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "onClick": "{{navigateTo('Guides', {}, 'SAME_WINDOW');}}",
+            "iconName": "clipboard",
+            "widgetId": "",
+            "iconColor": "#22c55e",
+            "index": 2,
+            "label": "Guides",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2xs93gfqw8": {
+            "onClick": "{{navigateTo('Find Animal', {}, 'SAME_WINDOW');}}",
+            "iconName": "search",
+            "widgetId": "sivhbdzhm7",
+            "iconColor": "#3b82f6",
+            "index": 0,
+            "id": "menuItem2xs93gfqw8",
+            "label": "Find Animal",
+            "isDisabled": false,
+            "isVisible": true
+        }
+    },
+    "isVisible": true,
+    "label": "Menu",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 6,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "placement": "CENTER",
+    "alignment": "end"
+}

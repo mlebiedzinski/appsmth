@@ -1,0 +1,4 @@
+{
+	"title": {{(JSONForm1.formData || {}).title}},
+	"guideText": {{(JSONForm1.formData || {}).guideText}}
+}
