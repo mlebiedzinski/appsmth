@@ -35,6 +35,10 @@
     {
       "id": "View Guide",
       "isDefault": false
+    },
+    {
+      "id": "Delete Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
