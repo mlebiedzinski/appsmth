@@ -25,30 +25,16 @@
     "animateLoading": true,
     "parentColumnSpace": 11.359375,
     "dynamicTriggerPathList": [
-        {
-            "key": "configureMenuItems.config.onClick"
-        },
-        {
-            "key": "menuItems.menuItem1.onClick"
-        },
-        {
-            "key": "menuItems.menuItem2xs93gfqw8.onClick"
-        },
-        {
-            "key": "menuItems.menuItem2.onClick"
-        },
-        {
-            "key": "menuItems.menuItem3.onClick"
-        }
+        {"key": "configureMenuItems.config.onClick"},
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2xs93gfqw8.onClick"},
+        {"key": "menuItems.menuItem2.onClick"},
+        {"key": "menuItems.menuItem3.onClick"}
     ],
     "leftColumn": 54.44776119402985,
     "dynamicBindingPathList": [
-        {
-            "key": "menuColor"
-        },
-        {
-            "key": "borderRadius"
-        }
+        {"key": "menuColor"},
+        {"key": "borderRadius"}
     ],
     "isDisabled": false,
     "sourceData": "[]",
@@ -108,9 +94,7 @@
     "label": "Menu",
     "version": 1,
     "parentId": "0",
-    "tags": [
-        "Buttons"
-    ],
+    "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 6,

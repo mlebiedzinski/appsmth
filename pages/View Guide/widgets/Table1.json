@@ -73,10 +73,7 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 35.5453125,
-    "columnWidthMap": {
-        "fullText": 395,
-        "title": 199
-    },
+    "columnWidthMap": {"fullText": 395},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,

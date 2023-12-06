@@ -14,19 +14,6 @@
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
-        "groupButtonc5bmdl6p1a": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "#fee2e2",
-            "iconName": "trash",
-            "widgetId": "ryrp6a94cw",
-            "menuItems": {},
-            "index": 2,
-            "id": "groupButtonc5bmdl6p1a",
-            "label": "Delete Review",
-            "isDisabled": false,
-            "isVisible": true,
-            "placement": "CENTER"
-        },
         "groupButton1": {
             "onClick": "{{navigateTo('Create Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
@@ -42,7 +29,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{navigateTo('View Review', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Create Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
             "iconName": "grid-view",
             "buttonColor": "#dbeafe",
