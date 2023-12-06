@@ -33,7 +33,11 @@
       "isDefault": false
     },
     {
-      "id": "Delete Review",
+      "id": "ManageYourAnimals",
+      "isDefault": false
+    },
+    {
+      "id": "ManageOneAnimal",
       "isDefault": false
     }
   ],

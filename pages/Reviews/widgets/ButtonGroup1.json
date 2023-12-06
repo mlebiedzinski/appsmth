@@ -14,20 +14,6 @@
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
-        "groupButtonc5bmdl6p1a": {
-            "onClick": "{{navigateTo('Delete Review', {}, 'SAME_WINDOW');}}",
-            "buttonType": "SIMPLE",
-            "buttonColor": "#fee2e2",
-            "iconName": "trash",
-            "widgetId": "ryrp6a94cw",
-            "menuItems": {},
-            "index": 2,
-            "id": "groupButtonc5bmdl6p1a",
-            "label": "Delete Review",
-            "isDisabled": false,
-            "isVisible": true,
-            "placement": "CENTER"
-        },
         "groupButton1": {
             "onClick": "{{navigateTo('Create Review', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
@@ -63,8 +49,7 @@
     "parentColumnSpace": 11.34375,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButton1.onClick"},
-        {"key": "groupButtons.groupButtonc5bmdl6p1a.onClick"}
+        {"key": "groupButtons.groupButton1.onClick"}
     ],
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "borderRadius"}],

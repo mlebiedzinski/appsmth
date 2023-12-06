@@ -2,7 +2,7 @@
     "isCompact": false,
     "boxShadow": "none",
     "mobileBottomRow": 10,
-    "widgetName": "MenuButton1",
+    "widgetName": "NavButton",
     "configureMenuItems": {
         "label": "Configure menu items",
         "id": "config",
@@ -29,7 +29,8 @@
         {"key": "menuItems.menuItem1.onClick"},
         {"key": "menuItems.menuItem2xs93gfqw8.onClick"},
         {"key": "menuItems.menuItem2.onClick"},
-        {"key": "menuItems.menuItem3.onClick"}
+        {"key": "menuItems.menuItem3.onClick"},
+        {"key": "menuItems.menuItemjx6e6hogrp.onClick"}
     ],
     "leftColumn": 54.565110565110565,
     "dynamicBindingPathList": [
@@ -42,26 +43,37 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "menuVariant": "PRIMARY",
-    "widgetId": "s3if7m1flh",
+    "widgetId": "mdb6i781jw",
     "menuItems": {
         "menuItem1": {
             "onClick": "{{navigateTo('Animal Form', {}, 'SAME_WINDOW');}}",
             "iconName": "annotation",
             "widgetId": "",
             "iconColor": "#ef4444",
-            "index": 1,
+            "index": 2,
             "iconAlign": "left",
             "label": "Animal Form",
             "id": "menuItem1",
             "isVisible": true,
             "isDisabled": false
         },
+        "menuItemjx6e6hogrp": {
+            "onClick": "{{navigateTo('ManageYourAnimals', {}, 'SAME_WINDOW');}}",
+            "iconName": "person",
+            "widgetId": "1ieg0ygroz",
+            "iconColor": "#ec4899",
+            "index": 1,
+            "id": "menuItemjx6e6hogrp",
+            "label": "Manage your Animals",
+            "isDisabled": false,
+            "isVisible": true
+        },
         "menuItem3": {
             "onClick": "{{navigateTo('Reviews', {}, 'SAME_WINDOW');}}",
             "iconName": "star-empty",
             "widgetId": "",
             "iconColor": "#eab308",
-            "index": 3,
+            "index": 4,
             "label": "Reviews",
             "id": "menuItem3",
             "isVisible": true,
@@ -72,20 +84,20 @@
             "iconName": "clipboard",
             "widgetId": "",
             "iconColor": "#22c55e",
-            "index": 2,
+            "index": 3,
             "label": "Guides",
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
         },
         "menuItem2xs93gfqw8": {
-            "onClick": "{{navigateTo('Find Animal', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Landing Page', {}, 'SAME_WINDOW');}}",
             "iconName": "search",
             "widgetId": "sivhbdzhm7",
             "iconColor": "#3b82f6",
             "index": 0,
             "id": "menuItem2xs93gfqw8",
-            "label": "Find Animal",
+            "label": "Animals Dashboard",
             "isDisabled": false,
             "isVisible": true
         }

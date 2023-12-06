@@ -181,7 +181,7 @@
                 "dataType": "string",
                 "accessor": "author",
                 "isVisible": true,
-                "label": "Name",
+                "label": "Author",
                 "originalIdentifier": "customField2",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "children": {},

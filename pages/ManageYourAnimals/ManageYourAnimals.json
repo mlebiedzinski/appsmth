@@ -1,39 +1,38 @@
 {
   "unpublishedPage": {
-    "name": "Create Review",
-    "slug": "create-review",
+    "name": "ManageYourAnimals",
+    "slug": "manageyouranimals",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 630,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 564,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "minHeight": 630,
+          "minHeight": 1292,
           "useAutoLayout": true,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 124,
           "version": 87,
-          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "7ctxwq1tp4",
+                  "id": "id3oeh7z0a",
                   "align": "end"
                 }
               ]
@@ -41,7 +40,7 @@
             {
               "children": [
                 {
-                  "id": "l2ciomvkmn",
+                  "id": "l3701we76t",
                   "align": "start"
                 }
               ]
@@ -49,17 +48,28 @@
             {
               "children": [
                 {
-                  "id": "0lbpnz47qv",
+                  "id": "nq45l7pkid",
                   "align": "start"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ManageYourAnimals_AnimalsBySupplier",
+              "name": "AnimalsBySupplier",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Create Review",
+        "id": "ManageYourAnimals",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -70,5 +80,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e1497c290983d32c70e11_656e1f13c290983d32c70e2c"
+  "gitSyncId": "656fe590bdbbb871fd46f13a_656fe71cbdbbb871fd46f15a"
 }
