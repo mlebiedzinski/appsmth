@@ -9,42 +9,18 @@
     "inlineEditingSaveOption": "ROW_LEVEL",
     "animateLoading": true,
     "dynamicBindingPathList": [
-        {
-            "key": "accentColor"
-        },
-        {
-            "key": "borderRadius"
-        },
-        {
-            "key": "boxShadow"
-        },
-        {
-            "key": "tableData"
-        },
-        {
-            "key": "primaryColumns.author.computedValue"
-        },
-        {
-            "key": "primaryColumns.customerID.computedValue"
-        },
-        {
-            "key": "primaryColumns.dateCreated.computedValue"
-        },
-        {
-            "key": "primaryColumns.dateEdited.computedValue"
-        },
-        {
-            "key": "primaryColumns.datePublished.computedValue"
-        },
-        {
-            "key": "primaryColumns.reviewID.computedValue"
-        },
-        {
-            "key": "primaryColumns.title.computedValue"
-        },
-        {
-            "key": "primaryColumns.reviewText.computedValue"
-        }
+        {"key": "accentColor"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "tableData"},
+        {"key": "primaryColumns.author.computedValue"},
+        {"key": "primaryColumns.customerID.computedValue"},
+        {"key": "primaryColumns.dateCreated.computedValue"},
+        {"key": "primaryColumns.dateEdited.computedValue"},
+        {"key": "primaryColumns.datePublished.computedValue"},
+        {"key": "primaryColumns.reviewID.computedValue"},
+        {"key": "primaryColumns.title.computedValue"},
+        {"key": "primaryColumns.reviewText.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -86,10 +62,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701809060727,
-    "defaultSelectedRowIndices": [
-        0
-    ],
+    "columnUpdatedAt": 1701807154166,
+    "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 39,
     "widgetName": "Table1",
@@ -102,7 +76,6 @@
         "dateCreated",
         "dateEdited",
         "reviewID",
-        "reviewText""reviewID",
         "reviewText"
     ],
     "dynamicPropertyPathList": [],
@@ -333,40 +306,6 @@
             "sticky": "",
             "originalId": "reviewID",
             "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "reviewText": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reviewText\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "reviewText",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "reviewText",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 6,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "reviewText",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "reviewText",
-            "currencyCode": "USD",
-            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "reviewText": {

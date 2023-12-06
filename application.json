@@ -9,10 +9,6 @@
       "isDefault": false
     },
     {
-      "id": "Manage Animals",
-      "isDefault": false
-    },
-    {
       "id": "Guides",
       "isDefault": false
     },
@@ -37,7 +33,7 @@
       "isDefault": false
     },
     {
-      "id": "ManageOneAnimal",
+      "id": "Delete Review",
       "isDefault": false
     }
   ],

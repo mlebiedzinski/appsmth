@@ -20,7 +20,6 @@
         {"key": "schema.__root_schema__.children.customField2.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.defaultValue"},
         {"key": "schema.__root_schema__.children.customField2.defaultValue"},
-        {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.message.defaultValue"},
         {"key": "schema.__root_schema__.children.message.borderRadius"},
         {"key": "schema.__root_schema__.children.message.accentColor"}
@@ -238,7 +237,7 @@
         {"key": "schema.__root_schema__.children.customField1.onEnterKeyPress"}
     ],
     "borderWidth": "1",
-    "sourceData": "{{AllGuides.data}}",
+    "sourceData": "",
     "resetButtonLabel": "Reset",
     "key": "6y5lie218y",
     "backgroundColor": "#fff",

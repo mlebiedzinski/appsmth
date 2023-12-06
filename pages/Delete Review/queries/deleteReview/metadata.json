@@ -58,8 +58,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T21:12:10Z"
+    "userPermissions": []
   },
   "id": "Delete Review_deleteReview",
   "deleted": false,

@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 19,
     "widgetName": "IconButton1",
-    "onClick": "{{navigateTo('Create Guide', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Guides', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
