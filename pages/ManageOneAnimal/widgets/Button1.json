@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button1",
-    "onClick": "{{showModal('Modal1').then(() => {\n  navigateTo('ManageYourAnimals', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Could not delete this animal', 'error');\n});}}",
+    "onClick": "{{showModal('Modal1').then(() => {}).catch(() => {\n  showAlert('Could not delete this animal', 'error');\n});}}",
     "buttonColor": "#ef4444",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
