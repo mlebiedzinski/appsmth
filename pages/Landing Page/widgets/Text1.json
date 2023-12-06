@@ -31,7 +31,7 @@
     "text": "Hello {{appsmith.user.name || appsmith.user.email}}, these are all the animals! 🦍",
     "key": "5msdbpn2df",
     "isDeprecated": false,
-    "rightColumn": 54.50679851668726,
+    "rightColumn": 53.47945205479452,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "4zihnirllb",
