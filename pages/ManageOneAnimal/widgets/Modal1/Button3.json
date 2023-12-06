@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button3",
-    "onClick": "{{DeleteAnimal.run().then(() => {\n  showAlert('Successfully deleted animal', 'success');\n}).catch(() => {\n  showAlert('Was not able to delete this animal', 'error');\n});}}",
+    "onClick": "{{DeleteAnimal.run().then(() => {\n  showAlert('Successfully deleted animal', 'success');\n  navigateTo('ManageYourAnimals', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Was not able to delete this animal', 'error');\n});}}",
     "buttonColor": "#ef4444",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
