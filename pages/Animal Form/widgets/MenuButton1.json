@@ -16,8 +16,8 @@
     },
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 90.2,
+    "bottomRow": 94.2,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 53.421487603305785,
+    "leftColumn": 54.50679851668727,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}

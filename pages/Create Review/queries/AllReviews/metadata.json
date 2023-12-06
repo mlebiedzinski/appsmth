@@ -60,8 +60,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-05T18:40:20Z"
+    "userPermissions": []
   },
   "id": "Create Review_AllReviews",
   "deleted": false,

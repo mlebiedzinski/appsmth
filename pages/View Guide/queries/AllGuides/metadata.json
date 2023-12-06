@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T19:43:08Z"
+    "userPermissions": []
   },
   "id": "View Guide_AllGuides",
   "deleted": false,

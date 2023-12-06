@@ -31,7 +31,7 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 54.290771175726924,
+    "leftColumn": 54.50679851668727,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}
@@ -49,9 +49,9 @@
             "iconName": "annotation",
             "widgetId": "",
             "iconColor": "#ef4444",
-            "index": 1,
+            "index": 0,
             "iconAlign": "left",
-            "label": "Animal Form",
+            "label": "Post Animal",
             "id": "menuItem1",
             "isVisible": true,
             "isDisabled": false
@@ -79,13 +79,13 @@
             "isDisabled": false
         },
         "menuItem2xs93gfqw8": {
-            "onClick": "{{navigateTo('Find Animal', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Manage Animals', {}, 'SAME_WINDOW');}}",
             "iconName": "search",
             "widgetId": "sivhbdzhm7",
             "iconColor": "#3b82f6",
-            "index": 0,
+            "index": 1,
             "id": "menuItem2xs93gfqw8",
-            "label": "Find Animal",
+            "label": "Manage Animals",
             "isDisabled": false,
             "isVisible": true
         }

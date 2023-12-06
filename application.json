@@ -9,7 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Find Animal",
+      "id": "Manage Animals",
       "isDefault": false
     },
     {
@@ -37,7 +37,7 @@
       "isDefault": false
     },
     {
-      "id": "Delete Review",
+      "id": "ManageOneAnimal",
       "isDefault": false
     }
   ],

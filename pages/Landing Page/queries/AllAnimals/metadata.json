@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/animals"
+        "url": "web:4000/animals/joined"
       },
       "invalids": [],
       "messages": [],
@@ -45,8 +45,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-04T18:15:25Z"
+    "userPermissions": []
   },
   "id": "Landing Page_AllAnimals",
   "deleted": false,
