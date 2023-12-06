@@ -1,13 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.989100817438692,
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{PutAnimal.run().then(() => {\n  showAlert('Animal updated!', 'success');\n});}}",
-    "topRow": 10.4,
+    "topRow": 6,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -46,7 +45,6 @@
         {"key": "schema.__root_schema__.children.customField8.defaultValue"}
     ],
     "showReset": true,
-    "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
     "resetButtonStyles": {
@@ -144,8 +142,8 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 98,
     "useSourceData": false,
-    "alignment": "start",
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -342,7 +340,7 @@
                 "boxShadow": "none",
                 "isRequired": true,
                 "isCustomField": true,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.URL.queryParams.price))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (parseFloat(appsmith.URL.queryParams.price.slice(1))))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
                 "dataType": "string",
                 "accessor": "price",
@@ -387,7 +385,6 @@
         "sourceData": {},
         "fieldType": "Object"
     }},
-    "mobileBottomRow": 48,
     "widgetName": "AnForm",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -399,12 +396,11 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 99.4,
+    "bottomRow": 98,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Modify an animal",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "parentColumnSpace": 11.34375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
@@ -413,16 +409,14 @@
     "key": "6y5lie218y",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "widgetId": "bih1nsp0ld",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 7,
     "scrollContents": true,
-    "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "mobileLeftColumn": 0,
+    "originalTopRow": 6,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

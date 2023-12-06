@@ -1,7 +1,6 @@
 {
     "isCompact": false,
     "boxShadow": "none",
-    "mobileBottomRow": 10,
     "widgetName": "NavButton",
     "configureMenuItems": {
         "label": "Configure menu items",
@@ -16,12 +15,11 @@
     },
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 0,
-    "bottomRow": 4,
+    "topRow": 5,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 6.632,
     "animateLoading": true,
     "parentColumnSpace": 11.359375,
     "dynamicTriggerPathList": [
@@ -32,7 +30,7 @@
         {"key": "menuItems.menuItem3.onClick"},
         {"key": "menuItems.menuItemjx6e6hogrp.onClick"}
     ],
-    "leftColumn": 54.50679851668727,
+    "leftColumn": 52,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}
@@ -41,7 +39,7 @@
     "sourceData": "[]",
     "key": "f0iiw9s8wh",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "menuVariant": "PRIMARY",
     "widgetId": "id3oeh7z0a",
     "menuItems": {
@@ -91,7 +89,7 @@
             "isDisabled": false
         },
         "menuItem2xs93gfqw8": {
-            "onClick": "{{navigateTo('Landing Page', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Animals Dashboard', {}, 'SAME_WINDOW');}}",
             "iconName": "search",
             "widgetId": "sivhbdzhm7",
             "iconColor": "#3b82f6",
@@ -109,11 +107,8 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 6,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "placement": "CENTER",
-    "alignment": "end"
+    "placement": "CENTER"
 }
