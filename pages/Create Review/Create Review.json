@@ -8,53 +8,26 @@
         "dsl": {
           "mobileBottomRow": 630,
           "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 564,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 630,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 580,
           "containerStyle": "none",
           "snapRows": 61,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
           "version": 87,
+          "minHeight": 630,
           "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "7ctxwq1tp4",
-                  "align": "end"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "l2ciomvkmn",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "0lbpnz47qv",
-                  "align": "start"
-                }
-              ]
-            }
-          ]
+          "useAutoLayout": false,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],

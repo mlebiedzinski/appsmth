@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Landing Page",
+      "id": "Animals Dashboard",
       "isDefault": true
-    },
-    {
-      "id": "Animal Form",
-      "isDefault": false
     },
     {
       "id": "Guides",
@@ -14,6 +10,14 @@
     },
     {
       "id": "Reviews",
+      "isDefault": false
+    },
+    {
+      "id": "ManageYourAnimals",
+      "isDefault": false
+    },
+    {
+      "id": "Animal Form",
       "isDefault": false
     },
     {
@@ -33,10 +37,6 @@
       "isDefault": false
     },
     {
-      "id": "ManageYourAnimals",
-      "isDefault": false
-    },
-    {
       "id": "ManageOneAnimal",
       "isDefault": false
     }
@@ -46,13 +46,24 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "AUTO"
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
     }
   },
   "color": "#F3F1C7",
   "icon": "file",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

@@ -1,60 +1,37 @@
 {
   "unpublishedPage": {
-    "name": "Landing Page",
-    "slug": "landing-page",
+    "name": "Animals Dashboard",
+    "slug": "animals-dashboard",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1292,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1292,
-          "useAutoLayout": true,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1660,
           "containerStyle": "none",
           "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
           "version": 87,
-          "responsiveBehavior": "fill",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "4zihnirllb",
-                  "align": "start"
-                },
-                {
-                  "id": "a8buhmypap",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "j94533xacs",
-                  "align": "start"
-                }
-              ]
-            }
-          ]
+          "minHeight": 1292,
+          "useAutoLayout": false,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Landing Page_AllAnimals",
+              "id": "Animals Dashboard_AllAnimals",
               "name": "AllAnimals",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -65,7 +42,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Landing Page",
+        "id": "Animals Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -1,6 +1,5 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 19,
     "widgetName": "IconButton1",
     "onClick": "{{navigateTo('Guides', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -10,16 +9,15 @@
         "click",
         "submit"
     ],
-    "topRow": 36.745312500000004,
-    "bottomRow": 40.745312500000004,
+    "topRow": 62,
+    "bottomRow": 66,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 2.21,
     "animateLoading": true,
     "parentColumnSpace": 11.34375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,7 +25,7 @@
     "isDisabled": false,
     "key": "1zaenw6txe",
     "isDeprecated": false,
-    "rightColumn": 3.2160804020100504,
+    "rightColumn": 4,
     "iconName": "arrow-left",
     "widgetId": "45pyopmgyq",
     "minWidth": 50,
@@ -37,10 +35,8 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 15,
-    "responsiveBehavior": "hug",
+    "originalTopRow": 62,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "buttonVariant": "PRIMARY",
-    "alignment": "start"
+    "originalBottomRow": 66,
+    "buttonVariant": "PRIMARY"
 }

@@ -21,30 +21,11 @@
           "canExtend": true,
           "version": 87,
           "minHeight": 630,
-          "useAutoLayout": true,
+          "useAutoLayout": false,
           "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "positioning": "vertical",
-          "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "mdb6i781jw",
-                  "align": "end"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "yeyks749a6",
-                  "align": "start"
-                }
-              ]
-            }
-          ]
+          "positioning": "fixed"
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],

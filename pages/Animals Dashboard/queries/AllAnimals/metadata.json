@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Landing Page",
+    "pageId": "Animals Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Landing Page_AllAnimals",
+  "id": "Animals Dashboard_AllAnimals",
   "deleted": false,
   "gitSyncId": "656e1497c290983d32c70e11_656e173dc290983d32c70e18"
 }

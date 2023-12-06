@@ -1,13 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.989100817438692,
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{AllGuides.run().then(() => {\n  showAlert('Guide Created!', 'success');\n});}}",
-    "topRow": 5.2,
+    "onSubmit": "{{AllGuides.run().then(() => {\n  showAlert('Guide Created!', 'success');\n  navigateTo('View Guide', {}, 'SAME_WINDOW');\n});}}",
+    "topRow": 5,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -25,7 +24,6 @@
         {"key": "schema.__root_schema__.children.message.accentColor"}
     ],
     "showReset": true,
-    "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
     "resetButtonStyles": {
@@ -123,8 +121,8 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 39,
     "useSourceData": false,
-    "alignment": "start",
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -174,7 +172,7 @@
                 "accessor": "guideText",
                 "errorMessage": "Must write a review!",
                 "isVisible": true,
-                "label": "Guide",
+                "label": "Guide Text ",
                 "originalIdentifier": "customField2",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "children": {},
@@ -213,7 +211,6 @@
         "sourceData": {},
         "fieldType": "Object"
     }},
-    "mobileBottomRow": 60,
     "widgetName": "JSONForm1",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -225,12 +222,11 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 57.2,
+    "bottomRow": 39,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Create a Guide!",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "parentColumnSpace": 11.34375,
     "dynamicTriggerPathList": [
         {"key": "onSubmit"},
@@ -242,16 +238,14 @@
     "key": "6y5lie218y",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 62,
     "widgetId": "vqu229q3ix",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 19,
     "scrollContents": true,
-    "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "mobileLeftColumn": 0,
+    "originalTopRow": 5,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }

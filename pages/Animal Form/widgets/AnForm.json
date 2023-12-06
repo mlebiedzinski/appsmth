@@ -1,13 +1,12 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.989100817438692,
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{PostAnimal.run({}).then(() => {\n  showAlert('Animal created!', 'success');\n});}}",
-    "topRow": 5.2,
+    "onSubmit": "{{PostAnimal.run({}).then(() => {\n  showAlert('Animal created!', 'success');\n});\nshowAlert('Ex. Cat', 'info');}}",
+    "topRow": 5,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -48,7 +47,6 @@
         {"key": "schema.__root_schema__.children.customField9.defaultValue"}
     ],
     "showReset": true,
-    "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
     "autoGenerateForm": true,
     "resetButtonStyles": {
@@ -146,8 +144,8 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 105,
     "useSourceData": false,
-    "alignment": "start",
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -177,7 +175,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 4,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -199,7 +197,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 5,
+                "position": 7,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -221,7 +219,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 6,
+                "position": 8,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -244,7 +242,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Available\",\n    \"value\": 1\n  },\n  {\n    \"label\": \"Unavailable\",\n    \"value\": 0\n  }\n]",
-                "position": 7,
+                "position": 9,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -266,7 +264,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 0,
+                "position": 5,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -288,7 +286,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 1,
+                "position": 2,
                 "isDisabled": false,
                 "sourceData": 0,
                 "fieldType": "Number Input"
@@ -311,7 +309,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Female\",\n    \"value\": 1\n  },\n  {\n    \"label\": \"Male\",\n    \"value\": 0\n  }\n]",
-                "position": 2,
+                "position": 3,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -333,7 +331,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 8,
+                "position": 0,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -355,7 +353,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(AnForm.sourceData, AnForm.formData, AnForm.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
-                "position": 3,
+                "position": 4,
                 "currencyCountryCode": "USD",
                 "isDisabled": false,
                 "sourceData": "",
@@ -378,7 +376,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 9,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
@@ -411,7 +409,6 @@
         "sourceData": {},
         "fieldType": "Object"
     }},
-    "mobileBottomRow": 48,
     "widgetName": "AnForm",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -423,12 +420,11 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 94.2,
+    "bottomRow": 105,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add an animal",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "parentColumnSpace": 11.34375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
@@ -437,16 +433,14 @@
     "key": "6y5lie218y",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 57,
     "widgetId": "g6t6pva4z7",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 7,
     "scrollContents": true,
-    "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "mobileLeftColumn": 0,
+    "originalTopRow": 5,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
